@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+  <style>
+body {
+  background-color: rgb(230, 230, 250);
+  text-align:center;
+
+}
+h1 {
+  color: navy;
+}
+h2{
+  color: navy;
+}
+
+</style>
+</head>
+<body>
+<h1>e-Pass Applications</h1>
+<h5>Please fill down the details given below for the e-Pass application process.</h5>
+
+
+<h2>Applicant's Details</h2>
+<form method="post" action="/login_page">
+  <label>User First Name:</label><input type="text" name="fname"  placeholder="" required>
+  <label>User Last Name: </label><input type="text" name="lname"  placeholder="" required>
+    <br>
+<br>
+    <label>Email: </label><input type="text" name="eid"  placeholder="" required>
+    <label>Source State: </label><input type="text" name="source_st"  placeholder="" required>
+    <br><br>
+    <label>Source District </label><input type="text" name="source"  placeholder="" required>
+    <label>Destination State: </label><input type="text" name="destination_st"  placeholder="" required>
+    <br><br>
+    <label>Destination: </label><input type="text" name="destination"  placeholder="" required>
+
+    <label>Phone Number</label><input type="text" name="phno"  placeholder="" required>
+<br><br>
+    <label>Id card: </label><input type="text" name="idcard"  placeholder="" required>
+  <label>Date : </label><input type="text" name="trip"  placeholder="" required>
+  <br><br>
+<p> Decleration<br><br>
+
+<input type="checkbox">I hereby declare that above details are true and correct.I undertake that if anything is found untrue I shall be illable<br>
+for punishment/panality as per law.<br><br>
+
+<input type="checkbox">I hereby declare that I have downloaded Aarogya Setu app and have done self assessment on Aarogya setu app<br></p>
+
+<input class="c" type="submit" value="submit">
+</form>
+
+</body>
+</html>
